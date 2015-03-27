@@ -6,12 +6,10 @@
  * @link https://github.com/<%= githubAccount %>/<%= projectName %>
  * @author <%= githubAccount %> <https://github.com/<%= githubAccount %>>
  * @license https://github.com/<%= githubAccount %>/<%= projectName %>/blob/master/LICENSE
- * @copyright Copyright (c) 2014, <%= githubAccount %> 
+ * @copyright Copyright (c) 2014, <%= githubAccount %>
  */
 
 namespace <%= githubAccount %>\<%= objectName %>;
-
-require(dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/autoload.php');
 
 /**
  * The <%= objectName %> class
